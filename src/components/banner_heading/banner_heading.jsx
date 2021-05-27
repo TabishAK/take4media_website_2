@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import LearnMore from "../buttons/learn_more";
 import "./banner_heading.scss";
 const BannerHeading = () => {
   return (
@@ -11,9 +12,8 @@ const BannerHeading = () => {
         <h1 className="outstanding">Outstanding </h1>
         <h1 className="compaigns">Campaigns.</h1>
       </div>
-      <div className="learn-more">
-        <button className="btn btn-sm btn-learn-more">Learn More</button>
-      </div>
+
+      <LearnMore class="btn btn-sm btn-learn-more" />
     </Container>
   );
 };

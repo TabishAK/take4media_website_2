@@ -1,0 +1,27 @@
+.big_heading {
+  display: inline;
+  h1 {
+    color: #adacac;
+    font-size: 10rem;
+    font-weight: 350;
+    margin-left: 6%;
+  }
+  h3 {
+    color: #adacac;
+    float: right;
+    right: 100px;
+    bottom: 70px;
+    position: relative;
+    font-size: 200%;
+  }
+}
+
+.line {
+  width: 90%;
+  color: #f2782a;
+  height: 3px !important;
+  opacity: inherit;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}

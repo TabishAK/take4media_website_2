@@ -1,0 +1,30 @@
+#__next {
+  padding: 20px;
+}
+.image-item {
+  padding: 20px 0 20px 20px;
+}
+
+.react-multi-carousel-list {
+  .react-multi-carousel-track {
+    li {
+      height: 45rem;
+      width: 40rem !important;
+    }
+  }
+}
+.react-multiple-carousel__arrow {
+  top: 82%;
+  right: 24%;
+  position: absolute;
+  outline: 0;
+  transition: all 0.5s;
+  border-radius: 46px;
+  z-index: 1000;
+  background: transparent;
+  min-width: 77px;
+  min-height: 75px;
+  opacity: 1;
+  border: white 2px solid;
+  cursor: pointer;
+}

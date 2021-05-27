@@ -1,0 +1,48 @@
+.btn-learn-more-2 {
+  margin-top: 4%;
+  background-color: transparent;
+  color: black;
+  font-weight: 400;
+  display: inline-flex;
+  border-radius: 8rem !important;
+  border: 1px solid #8cc63f;
+  font-size: 1.4rem !important;
+  padding: 22px 50px !important;
+  transition: all 0.5s;
+  outline: none !important;
+  position: relative;
+}
+
+.btn-learn-more-2:hover {
+  outline: none !important;
+  border: 1px solid rgba(21, 21, 21, 0.1);
+  color: black;
+  background-color: #8cc63f;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+}
+
+.btn-learn-more {
+  float: left;
+  margin-top: 7%;
+  background-color: #1c1c1c;
+  color: black;
+
+  font-weight: 400;
+  display: inline-flex;
+  border-radius: 8rem;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  font-size: 1.4rem;
+  padding: 22px 50px;
+  -webkit-transition: all 0.25s;
+  transition: all 0.5s;
+  outline: none !important;
+  background-color: #adacac;
+}
+
+.btn-learn-more:hover {
+  outline: none !important;
+  border: 1px solid rgba(21, 21, 21, 0.1);
+  color: black;
+  background-color: #f2782a;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+}

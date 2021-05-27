@@ -51,4 +51,57 @@
       color: black;
     }
   }
+
+  .our-work {
+    h1 {
+      color: #adacac;
+      margin-top: 112px;
+      margin-bottom: 50px;
+      margin-left: 7%;
+      position: relative;
+      font-size: 3.5rem;
+      font-weight: 350;
+      text-decoration: underline 3px;
+      text-decoration-color: #8cc63f;
+    }
+  }
+
+  .footer {
+    margin-top: 15%;
+
+    ul {
+      margin-top: 3%;
+      li {
+        cursor: pointer;
+
+        font-size: 165%;
+        font-weight: 500;
+        text-decoration: underline;
+      }
+      li:hover {
+        text-decoration: underline #96cb4f;
+        color: #f27a2e;
+      }
+    }
+  }
+  .f-part-2 {
+    .address {
+      margin-top: 3%;
+      h4 {
+        color: #f27a2e;
+      }
+      h6 {
+        color: #adacac;
+      }
+    }
+    .social-media-icons {
+      svg {
+        color: #ffffff;
+        font-size: 42px;
+        background: #adacac;
+        padding: 7px;
+        border-radius: 8px;
+      }
+    }
+  }
 }
