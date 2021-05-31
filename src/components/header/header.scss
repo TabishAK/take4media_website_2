@@ -58,6 +58,8 @@
     color: black;
     background-color: #8cc63f;
     border: 1px solid hsla(0, 0%, 100%, 0.2);
+    transform: scale(1.05);
+    transition: 0.5s;
   }
 
   .contact-btn-sm {

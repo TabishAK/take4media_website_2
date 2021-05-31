@@ -2,25 +2,194 @@
 }
 
 @media (min-width: 767px) and (max-width: 992px) {
+  .headings .page-2 {
+    top: -30px;
+    margin-left: 40px;
+  }
+  .who-are-we {
+    h1 {
+      font-size: 8rem;
+    }
+    h2 {
+      margin-top: 145px;
+      font-size: 2.5rem;
+      margin-left: 80px;
+    }
+
+    img {
+      width: 38%;
+      top: 103px;
+    }
+  }
+  .big_heading {
+    h1 {
+      font-size: 6rem !important;
+    }
+  }
 }
 
 @media (min-width: 575px) and (max-width: 768px) {
+  .started-from-scratch p {
+    margin-bottom: 12% !important;
+    margin-left: 5% !important;
+    top: 15px !important;
+    line-height: 80px !important;
+    font-size: 2rem !important;
+  }
+  .who-are-page .working-enviornment h1 {
+    font-size: 5rem !important;
+  }
+
+  .headings .page-2 {
+    font-size: 5rem;
+    top: -10px;
+    margin-left: 40px;
+  }
+  .big_heading {
+    h1 {
+      font-size: 5rem !important;
+    }
+    h3 {
+      right: 24px;
+      font-size: 174%;
+    }
+  }
 }
 
 @media (max-width: 576px) {
+  .who-are-page {
+    .working-enviornment {
+      p {
+        font-size: 2rem !important;
+        margin-left: 20px !important;
+      }
+      .gallery_3 {
+        width: 90% !important;
+        height: 100% !important;
+        margin-left: 19px !important;
+      }
+    }
+  }
+
+  .started-from-scratch {
+    h1 {
+      .started {
+        font-size: 5rem !important;
+        top: 70px !important;
+      }
+
+      .from-the {
+        font-size: 5rem !important;
+      }
+      .scratch {
+        font-size: 5rem !important;
+        top: 20px !important;
+      }
+    }
+    p {
+      margin-bottom: 20% !important;
+      margin-top: 26px !important;
+      margin-left: 5% !important;
+      top: 20px !important;
+      line-height: 60px !important;
+      text-align: center !important;
+      font-size: 2rem !important;
+    }
+  }
+  .who-are-page .working-enviornment h1 {
+    font-size: 3.5rem !important;
+  }
+  .blogs {
+    margin-left: 55px;
+  }
+
+  .footer {
+    .f-part-1 {
+      img {
+        margin-left: 40px !important;
+      }
+      ul {
+        margin-top: 30px;
+        text-align: center;
+      }
+    }
+    .f-part-2 {
+      .address {
+        text-align: center;
+        margin-top: 55px;
+      }
+      .social-media-icons {
+        text-align: center;
+      }
+    }
+  }
+
+  .trusted-by .logos li {
+    img {
+      width: 100%;
+    }
+  }
+
+  .big_heading {
+    h1 {
+      font-size: 4rem !important;
+    }
+    h3 {
+      right: 60px;
+      font-size: 110%;
+      top: -12px;
+    }
+  }
+
   .headings {
+    .page-2 {
+      font-size: 3rem;
+      top: -15px;
+      margin-left: 40px;
+    }
     h1 {
       margin-left: 15px;
       font-size: 3rem;
     }
   }
-
-  .home .banner .btn-learn-more {
-    margin-left: 35px;
-    margin-top: 12%;
-    font-weight: 300;
-    font-size: 1.2rem;
-    padding: 12px 22px;
+  .who-are-we {
+    h1 {
+      font-size: 5rem;
+      margin-left: 4%;
+      font-weight: 600;
+    }
+    h2 {
+      line-height: 48px;
+      margin-top: 148px;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-left: 0px;
+    }
+    img {
+      width: 50%;
+      margin-left: 18%;
+      top: 100px;
+    }
+  }
+  .home {
+    .btn-learn-more-2 {
+      margin-left: 60px;
+      margin-top: 18%;
+    }
+    .container {
+      h1 {
+        text-align: center !important;
+      }
+    }
+    .banner {
+      .btn-learn-more {
+        margin-left: 35px;
+        margin-top: 12%;
+        font-weight: 300;
+        font-size: 1.2rem;
+        padding: 12px 22px;
+      }
+    }
   }
 
   .header .navbar-menus li {
@@ -30,5 +199,7 @@
   .home .banner .down-button {
     top: 10rem;
     margin-right: 12%;
+    padding: 20px 24px;
+    margin-right: 6%;
   }
 }

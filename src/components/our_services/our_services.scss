@@ -1,0 +1,60 @@
+.our-services {
+  background-position-y: 8%;
+  height: 75rem;
+  background-image: url("../../images/backgrounds/hexagon.png");
+  h1 {
+    font-size: 8rem;
+    margin-left: 5%;
+    line-height: 125px;
+    position: relative;
+    top: 14rem;
+    color: #adacac;
+    span {
+      font-weight: 350;
+      color: #f2782a;
+      font-size: 10rem;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    span:after {
+      position: absolute;
+      content: "";
+      bottom: -18px;
+      left: 0px;
+      height: 3px;
+      width: 0%;
+      background-color: #f2782a;
+      animation: underline 2s 0.5s forwards;
+    }
+  }
+
+  p {
+    margin-right: 18%;
+    font-size: 4.5rem;
+    position: relative;
+    top: 20rem;
+    margin-left: 5%;
+    line-height: 100%;
+    color: #adacac;
+    font-weight: 350;
+    text-decoration: underline 3px;
+  }
+
+  .read-more {
+    top: 25rem;
+    position: relative;
+    background: black;
+    color: white;
+    margin-left: 5%;
+    padding: 22px 56px;
+    border-radius: 40px;
+  }
+  .read-more:hover {
+    background-color: #adacac;
+    color: black;
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+}

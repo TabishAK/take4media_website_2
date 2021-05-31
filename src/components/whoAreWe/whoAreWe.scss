@@ -1,13 +1,14 @@
 .who-are-we {
-  background-image: url("../../images/backgrounds/bg.jpg");
+  background-image: url("../../images/backgrounds/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -175px;
   margin-top: 8% !important;
 
   h1 {
     top: 7rem;
     position: relative;
-    font-size: 13rem;
+    font-size: 11rem;
     margin-left: 8%;
     color: #adacac;
     font-weight: 700;
@@ -24,8 +25,8 @@
 
   img {
     position: relative;
-    left: 5%;
-    width: 28%;
-    top: 90px;
+    left: 7%;
+    width: 24%;
+    top: 96px;
   }
 }

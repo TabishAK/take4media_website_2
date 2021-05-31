@@ -1,0 +1,59 @@
+.started-from-scratch {
+  background-image: url("../../images/backgrounds/hexagon.png");
+  background-position-y: 30%;
+  h1 {
+    position: relative;
+    .started {
+      color: beige;
+      font-size: 8rem;
+      font-weight: 700;
+
+      top: 80px;
+      position: relative;
+      margin-left: 5%;
+      color: #adacac;
+    }
+    .from-the {
+      top: 45px;
+      position: relative;
+      margin-left: 5%;
+      font-size: 9rem;
+      color: #8cc63f;
+      font-weight: 350;
+    }
+    .scratch {
+      top: 5px;
+      position: relative;
+      margin-left: 5%;
+      font-size: 9rem;
+      color: #f2782a;
+      font-weight: 350;
+    }
+  }
+  p {
+    margin-bottom: 5%;
+    text-decoration: underline 3px;
+    margin-left: 5%;
+    top: 20px;
+    line-height: 79px;
+    text-align: left;
+    font-size: 4.5rem;
+    font-weight: 100;
+    position: relative;
+    color: #adacac;
+  }
+
+  .read-more {
+    background: black;
+    color: white;
+    margin-left: 5%;
+    padding: 22px 56px;
+    border-radius: 40px;
+  }
+  .read-more:hover {
+    background-color: #adacac;
+    color: black;
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+}

@@ -1,6 +1,57 @@
 .headings {
   margin-left: 6%;
   margin-top: 10%;
+
+  .page-2 {
+    position: relative;
+    font-size: 6rem;
+    top: -80px;
+    margin-left: 85px;
+    color: white;
+
+    .success {
+      color: #8cc63f;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    .success:after {
+      position: absolute;
+      content: "";
+      bottom: -2px;
+      left: 0px;
+      height: 2px;
+      width: 0%;
+      background-color: #f2782a;
+      animation: underline 2s 0.5s forwards;
+    }
+  }
+
+  .page-3 {
+    font-weight: 700;
+    margin-left: 15%;
+    margin-top: -90px;
+    color: white;
+    span {
+      color: #f2782a;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    span:after {
+      position: absolute;
+      content: "";
+      bottom: 8px;
+      left: 0px;
+      height: 3px;
+      width: 0%;
+      background-color: #f2782a;
+      animation: underline 2s 0.5s forwards;
+    }
+  }
+
   h1 {
     font-size: 6rem;
   }

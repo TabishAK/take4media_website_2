@@ -1,0 +1,50 @@
+.who-are-page {
+  .banner {
+    background-color: #1c1c1c;
+  }
+  .working-enviornment {
+    background-image: url("../../images/backgrounds/bg.png");
+
+    .gallery_3 {
+      width: 90%;
+      height: 80%;
+      top: 5%;
+      position: relative;
+
+      margin-left: 45px;
+    }
+    p {
+      font-size: 3.5rem;
+      font-weight: 300;
+      margin-left: 60px;
+      color: #adacac;
+      text-decoration: underline 2px;
+    }
+    h1 {
+      margin-left: 5%;
+      line-height: 105%;
+      font-size: 8rem;
+      top: 6rem;
+      font-weight: 350;
+      color: #adacac;
+      position: relative;
+      span {
+        color: #f2782a;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+      }
+      span:after {
+        position: absolute;
+        content: "";
+        bottom: -10px;
+        left: 0px;
+        height: 2px;
+        width: 0%;
+        background-color: #f2782a;
+        animation: underline 2s 0.5s forwards;
+      }
+    }
+  }
+}

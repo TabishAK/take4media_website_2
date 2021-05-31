@@ -1,0 +1,20 @@
+.down-button {
+  float: right;
+  position: relative;
+  height: fit-content !important;
+  color: #adacac;
+  border-color: #adacac;
+  background-color: transparent;
+  border-radius: 48px;
+  padding: 25px 30px;
+  width: fit-content !important;
+  border: 1px solid #adacac;
+  cursor: pointer;
+  margin-right: 3%;
+}
+.down-button:hover {
+  background-color: white;
+  transform: scale(1.1);
+  transition: all 0.8s;
+  color: black;
+}

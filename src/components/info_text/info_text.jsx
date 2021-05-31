@@ -1,9 +1,10 @@
 import t4m_logo from "../../images/logos/t4m_logo.png";
 import LearnMore from "./../buttons/learn_more";
+import "./info_text.scss";
 
 const InfoText = () => {
   return (
-    <div className="container">
+    <div className="container info-text">
       <h1
         style={{
           lineHeight: "55px",
@@ -46,6 +47,11 @@ const InfoText = () => {
       </h1>
 
       <LearnMore class="btn-sm btn-learn-more-2" />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };

@@ -11,7 +11,16 @@ import { Container } from "react-bootstrap";
 const TrustedBy = () => {
   return (
     <Container fluid className="trusted-by mt-5">
-      <BigHeading headingText="Trusted by" isRightHeading={false} />
+      <BigHeading
+        style={{
+          marginTop: "-43px",
+          width: "36%",
+          left: "8%",
+          position: "relative",
+        }}
+        headingText="Trusted by"
+        isRightHeading={false}
+      />
 
       <ul className="logos">
         <li>

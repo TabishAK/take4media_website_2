@@ -7,7 +7,15 @@ import "./blog.scss";
 const Blogs = () => {
   return (
     <Container fluid className="blogs mt-5">
-      <BigHeading headingText="Blogs" isRightHeading={true} />
+      <BigHeading
+        headingText="Blogs"
+        style={{
+          left: "6%",
+          width: "23%",
+          position: "relative",
+        }}
+        isRightHeading={true}
+      />
       <Container className="img-section">
         <div className="row">
           <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 img-1">

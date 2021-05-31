@@ -19,6 +19,16 @@
         border-radius: 18px;
         margin-top: 18px;
       }
+      button:hover {
+        padding: 8px 28px;
+        background: #adacac;
+        border-radius: 18px;
+        border: 1px solid #adacac;
+        background: transparent;
+        transform: scale(1.05);
+        transition: 0.5s;
+        margin-top: 18px;
+      }
     }
   }
 }
