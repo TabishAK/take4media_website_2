@@ -52,6 +52,30 @@
     }
   }
 
+  .page-4 {
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 700;
+    span {
+      color: #f2782a;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    span:after {
+      position: absolute;
+      content: "";
+      bottom: 8px;
+      left: 0px;
+      height: 3px;
+      width: 0%;
+      background-color: #f2782a;
+      animation: underline 2s 0.5s forwards;
+    }
+  }
+
   h1 {
     font-size: 6rem;
   }

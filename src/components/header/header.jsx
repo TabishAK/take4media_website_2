@@ -12,9 +12,8 @@ const Header = () => {
         <ul className="navbar-menus">
           <li>Home</li>
           <li>Who are we</li>
-          <li>Blogs</li>
-          <li>Team</li>
-          <li>Packages</li>
+          <li>Services</li>
+          <li>Contact us</li>
         </ul>
       </div>
       <div className="contact-btn">

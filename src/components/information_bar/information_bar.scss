@@ -1,0 +1,30 @@
+.contact-icons {
+  background-image: url("../../images/backgrounds/hexagon.png");
+  background-size: cover;
+  background-position-y: 43%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  height: 60rem;
+  div {
+    img {
+    }
+    h1 {
+      text-align: center;
+      font-weight: 350;
+    }
+    h5 {
+      text-align: center;
+      color: #adacac;
+    }
+    .span {
+      position: relative;
+      top: 20px;
+    }
+
+    margin: 0 190px;
+    top: 12rem;
+    position: relative;
+  }
+}

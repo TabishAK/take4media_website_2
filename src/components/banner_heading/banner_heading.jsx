@@ -30,6 +30,10 @@ const BannerHeading = (props) => {
           the Bucket fill
           <br /> with <span className="ideas">Ideas</span>
         </h1>
+      ) : props.conf.page === 4 ? (
+        <h1 className="page-4">
+          <span className="reach">Reach</span> us out
+        </h1>
       ) : (
         ""
       )}

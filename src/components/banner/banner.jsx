@@ -8,7 +8,9 @@ const Banner = (props) => {
       <Header />
       <BannerHeading conf={props.conf} />
       <DownButton />
-      {props.conf.page === 2 || props.conf.page === 3 ? (
+      {props.conf.page === 2 ||
+      props.conf.page === 3 ||
+      props.conf.page === 4 ? (
         <>
           <br /> <br /> <br /> <br /> <br />
         </>

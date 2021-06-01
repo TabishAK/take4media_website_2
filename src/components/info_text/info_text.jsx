@@ -4,16 +4,8 @@ import "./info_text.scss";
 
 const InfoText = () => {
   return (
-    <div className="container info-text">
-      <h1
-        style={{
-          lineHeight: "55px",
-          textAlign: "left",
-          marginTop: "12%",
-          fontFamily: "helvetica",
-          color: "#adacac",
-        }}
-      >
+    <div className="container-fluid info-text">
+      <h1>
         We
         <img
           src={t4m_logo}

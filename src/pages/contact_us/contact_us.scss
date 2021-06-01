@@ -1,0 +1,22 @@
+.contact-icons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  div {
+    img {
+    }
+    h1 {
+      text-align: center;
+      font-weight: 350;
+    }
+    h5 {
+      text-align: center;
+      color: #adacac;
+    }
+    .span {
+      position: relative;
+      top: 20px;
+    }
+    margin: 12% 190px;
+  }
+}
