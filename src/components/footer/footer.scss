@@ -31,8 +31,9 @@
       }
     }
     .social-media-icons {
+      display: flex;
       margin-top: 26%;
-      margin-left: 20px;
+      margin-left: -26px;
       svg {
         cursor: pointer;
         margin: 12px;

@@ -7,17 +7,23 @@ const Banner = (props) => {
     <div className="banner">
       <Header />
       <BannerHeading conf={props.conf} />
-      <DownButton />
+      <DownButton makeScroll={props.makeScroll} conf={props.conf} />
       {props.conf.page === 2 ||
       props.conf.page === 3 ||
       props.conf.page === 4 ? (
         <>
           <br /> <br /> <br /> <br /> <br />
+          <br /> <br />
+          <br /> <br />
+          <br /> <br />
+          <br /> <br /> <br />
         </>
       ) : props.conf.page === 1 ? (
         <>
-          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
           <br /> <br /> <br /> <br />
+          <br />
+          <br /> <br /> <br /> <br />
+          <br /> <br /> <br /> <br /> <br />
         </>
       ) : (
         ""

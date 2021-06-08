@@ -1,22 +1,109 @@
-.contact-icons {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  div {
-    img {
-    }
-    h1 {
-      text-align: center;
-      font-weight: 350;
-    }
-    h5 {
-      text-align: center;
-      color: #adacac;
-    }
-    .span {
+.contact-form {
+  background-image: url("../../images/backgrounds/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 70%;
+  height: 70rem;
+  .input-forms {
+    .input-1 {
+      width: fit-content;
       position: relative;
-      top: 20px;
+      h5 {
+        left: 2%;
+        color: white;
+        position: absolute;
+        top: -20%;
+      }
     }
-    margin: 12% 190px;
+    .input-2 {
+      width: fit-content;
+      position: relative;
+      margin-top: 2%;
+
+      h5 {
+        left: 2%;
+        color: white;
+        position: absolute;
+        top: -18%;
+      }
+    }
+    .input-3 {
+      width: fit-content;
+      position: relative;
+      h5 {
+        left: 0%;
+        color: white;
+        position: absolute;
+        top: 8%;
+      }
+    }
+  }
+  .submit-btn {
+    background: gray;
+    padding: 20px 68px;
+    border-radius: 86px;
+    margin-top: 5%;
+    outline: none;
+  }
+
+  .submit-btn:hover {
+    background: #8cc63f;
+    color: white;
+    border: 1px solid #8cc63f;
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+
+  textarea {
+    color: #8cc63f;
+    border-radius: 24px;
+    margin-top: 15% !important;
+    height: 240px;
+    width: 445px;
+    background: transparent;
+    padding: 12px;
+    position: relative;
+
+    border: 1px solid gray;
+    outline: none;
+  }
+  .second-one {
+    left: 102px;
+    font-size: 22px;
+    position: relative;
+    color: gray;
+    bottom: 263px;
+  }
+  .input-forms {
+    top: 10rem;
+    position: relative;
+
+    input {
+      color: #8cc63f;
+      margin: 20px !important;
+      height: 65px;
+      padding-left: 15px;
+      text-align: left;
+      outline: none;
+      border-radius: 25px;
+      background: transparent;
+      border: 1px solid gray;
+      width: 410px;
+    }
+    label {
+      margin: 0px 33px;
+      position: absolute;
+      top: -10px;
+      font-size: 22px;
+      color: gray;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    top: 4rem;
+    position: relative;
+    font-size: 5rem;
+    color: white;
   }
 }

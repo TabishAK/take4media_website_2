@@ -2,12 +2,12 @@
   background-image: url("../../images/backgrounds/hexagon.png");
   background-position-y: 30%;
   h1 {
+    line-height: 110px;
     position: relative;
     .started {
       color: beige;
-      font-size: 8rem;
+      font-size: 6rem;
       font-weight: 700;
-
       top: 80px;
       position: relative;
       margin-left: 5%;
@@ -17,15 +17,15 @@
       top: 45px;
       position: relative;
       margin-left: 5%;
-      font-size: 9rem;
+      font-size: 6rem;
       color: #8cc63f;
       font-weight: 350;
     }
     .scratch {
-      top: 5px;
+      top: -100px;
       position: relative;
       margin-left: 5%;
-      font-size: 9rem;
+      font-size: 6rem;
       color: #f2782a;
       font-weight: 350;
     }
@@ -37,7 +37,7 @@
     top: 20px;
     line-height: 79px;
     text-align: left;
-    font-size: 4.5rem;
+    font-size: 2.8rem;
     font-weight: 100;
     position: relative;
     color: #adacac;

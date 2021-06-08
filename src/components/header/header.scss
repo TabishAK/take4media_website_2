@@ -8,6 +8,9 @@
 
   .nav-menus {
     margin: 22px 0px 0px 0px;
+    a {
+      text-decoration: none;
+    }
   }
 
   .contact-btn {
@@ -25,9 +28,34 @@
     li {
       cursor: pointer;
       padding: 0 22px;
-      color: #9ba6a6;
+
       font-weight: 450;
+      display: table-cell;
+      position: relative;
       font-size: 110%;
+
+      a {
+        color: #9ba6a6;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+      }
+      a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #9ba6a6;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      a:hover:after {
+        width: 100%;
+        left: 0;
+      }
     }
   }
 

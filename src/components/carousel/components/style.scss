@@ -1,30 +1,80 @@
-#__next {
-  padding: 20px;
-}
-.image-item {
-  padding: 20px 0 20px 20px;
-}
+/* max-width constrains the width of our carousel to 550, but shrinks on small devices */
 
-.react-multi-carousel-list {
-  .react-multi-carousel-track {
-    li {
-      height: 45rem;
-      width: 40rem !important;
-    }
+.carousel {
+  margin-top: 4%;
+  margin-bottom: -25%;
+  position: relative;
+  .carousel__container {
+    max-width: 550px;
+    margin: auto;
   }
-}
-.react-multiple-carousel__arrow {
-  top: 82%;
-  right: 24%;
-  position: absolute;
-  outline: 0;
-  transition: all 0.5s;
-  border-radius: 46px;
-  z-index: 1000;
-  background: transparent;
-  min-width: 77px;
-  min-height: 75px;
-  opacity: 1;
-  border: white 2px solid;
-  cursor: pointer;
+
+  /* gives us the illusion of a "centered" slide */
+  .carousel__slider {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  /* gives us the illusion of spaces between the slides */
+  .carousel__inner-slide {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    left: 10px;
+    top: 10px;
+    background-color: burlywood;
+  }
+
+  .slideInner___2mfX9 {
+    position: absolute !important;
+    top: 0 !important;
+    left: 60px !important;
+    width: 70% !important;
+    height: 55% !important;
+  }
+
+  pre {
+    text-align: left;
+    display: inline-block;
+    margin: auto !important;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  li {
+    margin-bottom: 0.8rem !important;
+  }
+  .carousel__back-button {
+    position: absolute !important;
+    top: 28% !important;
+    left: 18% !important;
+    border-radius: 100px !important;
+    padding: 28px 32px !important;
+    background: transparent !important;
+    border: 1px solid #8cc63f !important;
+    outline: none !important;
+  }
+  .carousel__next-button {
+    position: absolute !important;
+    top: 28% !important;
+    right: 28% !important;
+    border-radius: 100px !important;
+
+    padding: 28px 32px !important;
+    background: transparent !important;
+    border: 1px solid #8cc63f !important;
+    outline: none !important;
+  }
+  code {
+    font-family: "Courier New", Courier, monospace !important;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    display: inline-block !important;
+    padding: 2px 3px !important;
+    font-size: 1.4rem !important;
+  }
+
+  .carousel {
+    text-align: center !important;
+  }
 }

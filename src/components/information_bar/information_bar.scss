@@ -2,13 +2,14 @@
   background-image: url("../../images/backgrounds/hexagon.png");
   background-size: cover;
   background-position-y: 43%;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
   position: relative;
   height: 60rem;
+  text-align: center;
   div {
+    top: 6rem;
+    position: relative;
     img {
+      width: 25%;
     }
     h1 {
       text-align: center;
@@ -22,9 +23,14 @@
       position: relative;
       top: 20px;
     }
+  }
+}
 
-    margin: 0 190px;
-    top: 12rem;
-    position: relative;
+@media (max-width: 767px) {
+  .contact-icons div {
+    top: 2rem !important;
+  }
+  .contact-icons {
+    height: 85rem !important;
   }
 }
