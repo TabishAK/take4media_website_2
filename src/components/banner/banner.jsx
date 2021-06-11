@@ -14,7 +14,7 @@ const Banner = (props) => {
     <>
       {!isLoading && <SlideAnimations />}
 
-      <div className="banner">
+      <div className="banner" style={{ background: props.conf.colo }}>
         <Header />
         <BannerHeading conf={props.conf} />
         <DownButton makeScroll={props.makeScroll} conf={props.conf} />

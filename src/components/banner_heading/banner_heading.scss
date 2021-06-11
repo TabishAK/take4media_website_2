@@ -2,14 +2,14 @@
   margin-left: 6%;
   margin-top: 10%;
 
-  h1 {
+  .page-1 {
     overflow: hidden !important;
     .something-1 {
       display: block;
-
-      animation: reveal2 2s cubic-bezier(0.77, 0, 0.175, 1);
+      animation: reveal 2s cubic-bezier(0.77, 0, 0.175, 1);
     }
-    @keyframes reveal2 {
+
+    @keyframes reveal {
       0% {
         transform: translate(0, 100%);
       }
@@ -39,11 +39,40 @@
 
     .outstanding {
       color: white;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    .outstanding:after {
+      position: absolute;
+      content: "";
+      bottom: -10px;
+      left: 0px;
+      height: 2px;
+      width: 0%;
+      background-color: white;
+      animation: underline 1s 2s forwards;
     }
 
     .compaigns {
       color: #f2782a;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
     }
+    .compaigns:after {
+      position: absolute;
+      content: "";
+      bottom: -10px;
+      left: 0px;
+      height: 2px;
+      width: 0%;
+      background-color: #f2782a;
+      animation: underline 1s 2s forwards;
+    }
+
     @keyframes underline {
       to {
         width: 100%;
@@ -61,23 +90,24 @@
     overflow: hidden;
     .something-2 {
       display: block;
-      // animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+      animation: reveal2 2s cubic-bezier(0.77, 0, 0.175, 1);
+
       .success {
-        color: #8cc63f !important;
-        display: inline-block !important;
-        position: relative !important;
-        padding-bottom: 4px !important;
-        margin-bottom: 10px !important;
+        color: #8cc63f;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 4px;
+        margin-bottom: 10px;
       }
       .success:after {
-        position: absolute !important;
-        content: "" !important;
-        bottom: -18px !important;
-        left: 0px !important;
-        height: 2px !important;
-        width: 0% !important;
-        background-color: #f2782a !important;
-        animation: underline 1s 2s !important;
+        position: absolute;
+        content: "";
+        bottom: -2px;
+        left: 0px;
+        height: 2px;
+        width: 0%;
+        background-color: #f2782a;
+        animation: underline 1s 2s forwards;
       }
 
       @keyframes underline {
@@ -86,37 +116,51 @@
         }
       }
     }
-  }
-  @keyframes reveal {
-    0% {
-      transform: translate(0, 100%);
-    }
-    100% {
-      transform: translate(0, 0);
+    @keyframes reveal2 {
+      0% {
+        transform: translate(0, 100%);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
     }
   }
 
   .page-3 {
     font-weight: 700;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: -30px;
     color: white;
-    span {
-      color: #f2782a;
-      display: inline-block;
-      position: relative;
-      padding-bottom: 4px;
-      margin-bottom: 10px;
+    overflow: hidden !important;
+    .somthing-3 {
+      display: block;
+      animation: reveal2 2s cubic-bezier(0.77, 0, 0.175, 1);
+
+      span {
+        color: #f2782a;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+      }
+      span:after {
+        position: absolute;
+        content: "";
+        bottom: 8px;
+        left: 0px;
+        height: 3px;
+        width: 0%;
+        background-color: #f2782a;
+        animation: underline 1s 2s forwards;
+      }
     }
-    span:after {
-      position: absolute;
-      content: "";
-      bottom: 8px;
-      left: 0px;
-      height: 3px;
-      width: 0%;
-      background-color: #f2782a;
-      animation: underline 1s 2s forwards;
+    @keyframes reveal2 {
+      0% {
+        transform: translate(0, 100%);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
     }
   }
 
@@ -126,22 +170,36 @@
     text-align: center;
     font-weight: 700;
     margin-top: 250px;
-    span {
-      color: #f2782a;
-      display: inline-block;
-      position: relative;
-      padding-bottom: 4px;
-      margin-bottom: 10px;
+    overflow: hidden !important;
+    .something-4 {
+      display: block;
+      animation: reveal2 2s cubic-bezier(0.77, 0, 0.175, 1);
+
+      span {
+        color: #f2782a;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+      }
+      span:after {
+        position: absolute;
+        content: "";
+        bottom: 8px;
+        left: 0px;
+        height: 3px;
+        width: 0%;
+        background-color: #f2782a;
+        animation: underline 1s 2s forwards;
+      }
     }
-    span:after {
-      position: absolute;
-      content: "";
-      bottom: 8px;
-      left: 0px;
-      height: 3px;
-      width: 0%;
-      background-color: #f2782a;
-      animation: underline 1s 2s forwards;
+    @keyframes reveal2 {
+      0% {
+        transform: translate(0, 100%);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
     }
   }
 
@@ -221,11 +279,17 @@
   }
 }
 
-.page-2 {
-  animation: check 1.2s ease-out forwards 1s;
-}
 .headings {
-  h1 {
+  .page-1 {
+    animation: check 1s ease-out forwards 0.12s;
+  }
+  .page-2 {
+    animation: check 1s ease-out forwards 0.12s;
+  }
+  .page-3 {
+    animation: check 1s ease-out forwards 0.12s;
+  }
+  .page-4 {
     animation: check 1s ease-out forwards 0.12s;
   }
 }

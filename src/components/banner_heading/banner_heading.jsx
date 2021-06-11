@@ -50,31 +50,34 @@ const BannerHeading = (props) => {
         </h1>
       ) : props.conf.page === 3 ? (
         <h1 className="page-3">
-          <Fade bottom delay={1000}>
-            We have
-          </Fade>
-          <Fade bottom delay={1100}>
-            the Bucket fill
-          </Fade>{" "}
-          <Fade bottom delay={1200}>
+          <span className="somthing-3">
+            {/* <Fade bottom delay={1000}> */}
+            We have {/* </Fade> */}
+            {/* <Fade bottom delay={1100}> */}
+            {""} the <br /> Bucket fill <br />
+            {/* </Fade>{" "} */}
+            {/* <Fade bottom delay={1200}> */}
             <span className="ideas"> with Ideas</span>
-          </Fade>
+            {/* </Fade> */}
+          </span>
         </h1>
       ) : props.conf.page === 4 ? (
-        <Fade bottom delay={1200}>
-          <h1 className="page-4">
+        // <Fade bottom delay={1200}>
+        <h1 className="page-4">
+          <span className="something-4">
             <span className="reach">Reach</span> us out
-          </h1>
-        </Fade>
+          </span>
+        </h1>
       ) : (
+        // </Fade>
         ""
       )}
 
       {props.conf.isButton ? (
-        <Fade bottom delay={1200}>
-          <LearnMore class="btn btn-sm btn-learn-more" />
-        </Fade>
+        // <Fade bottom delay={1200}>
+        <LearnMore class="btn btn-sm btn-learn-more" />
       ) : (
+        // </Fade>
         ""
       )}
     </Container>

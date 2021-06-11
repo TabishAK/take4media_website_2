@@ -30,7 +30,10 @@ const Services = () => {
       {!isLoading && <SlideAnimations />}
 
       <div className="services">
-        <Banner makeScroll={makeScroll} conf={{ isButton: false, page: 3 }} />
+        <Banner
+          makeScroll={makeScroll}
+          conf={{ isButton: false, page: 3, color: "#82b23c" }}
+        />
         <InfoText />
         <OurServices />
         <Service
