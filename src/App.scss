@@ -11,6 +11,9 @@
   transform: translate(-100%) !important;
 }
 
+.App {
+  z-index: -5 !important;
+}
 /* next */
 .next-enter {
   transform: translateX(100%) !important;

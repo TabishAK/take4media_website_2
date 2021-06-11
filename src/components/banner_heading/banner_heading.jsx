@@ -7,35 +7,46 @@ const BannerHeading = (props) => {
   return (
     <Container className="headings">
       {props.conf.page === 1 ? (
-        <>
-          {/* <Fade bottom delay={1000}> */}
-          <div className="first-one">
-            <h1 className="we-build">We Build </h1>
-            <h1 className="creative ">Creative</h1>
-          </div>
-          {/* </Fade> */}
-          {/* <Fade bottom delay={1100}> */}
-          <div className="second-one">
-            <h1 className="outstanding">Outstanding </h1>
-            <h1 className="compaigns">Campaigns.</h1>
-          </div>
-          {/* </Fade> */}
-        </>
-      ) : props.conf.page === 2 ? (
+        // <Fade bottom delay={400}>
+        <h1 className="page-1">
+          <span className="something-1">
+            We Build <span className="creative">Creative</span>{" "}
+            <span className="outstanding">Outstanding</span>{" "}
+            <span className="compaigns">Compaigns</span>
+          </span>{" "}
+        </h1>
+      ) : // </Fade>
+      // <span className="something-1">
+      //   {/* <Fade bottom delay={1200} duration={300}> */}
+      //   <div className="first-one">
+      //     <h1 className="we-build">We Build </h1>
+      //     <h1 className="creative ">Creative</h1>
+      //   </div>
+      //   {/* </Fade> */}
+      //   {/* <Fade bottom delay={1200} duration={300}> */}
+      //   <div className="second-one">
+      //     <h1 className="outstanding">Outstanding </h1>
+      //     <h1 className="compaigns">Campaigns.</h1>
+      //   </div>
+      //   {/* </Fade> */}
+      // </span>
+      props.conf.page === 2 ? (
         <h1 className="page-2">
-          <Fade bottom delay={1000}>
+          <span className="something-2">
+            {/* <Fade bottom delay={600}> */}
             Get your
-          </Fade>
-          <br />
-          <Fade bottom delay={1100}>
+            {/* </Fade> */}
+            <br />
+            {/* <Fade bottom delay={600}> */}
             Swift ride
-          </Fade>
-          <br />
-          <Fade bottom delay={1200}>
+            {/* </Fade> */}
+            <br />
+            {/* <Fade bottom delay={600}> */}
             <span className="success" style={{ color: "#f2782a" }}>
               to Success
             </span>
-          </Fade>
+            {/* </Fade> */}
+          </span>
         </h1>
       ) : props.conf.page === 3 ? (
         <h1 className="page-3">

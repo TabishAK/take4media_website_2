@@ -2,36 +2,104 @@
   margin-left: 6%;
   margin-top: 10%;
 
-  .page-2 {
-    position: relative;
-    font-size: 6rem;
-    top: -80px;
-    margin-left: 85px;
-    color: white;
-    line-height: 62%;
-    .success {
+  h1 {
+    overflow: hidden !important;
+    .something-1 {
+      display: block;
+
+      animation: reveal2 2s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+    @keyframes reveal2 {
+      0% {
+        transform: translate(0, 100%);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+    color: #adacac;
+    font-weight: 700;
+    .creative {
       color: #8cc63f;
       display: inline-block;
       position: relative;
       padding-bottom: 4px;
       margin-bottom: 10px;
     }
-    .success:after {
+    .creative:after {
       position: absolute;
       content: "";
-      bottom: -18px;
+      bottom: -2px;
       left: 0px;
       height: 2px;
       width: 0%;
-      background-color: #f2782a;
+      background-color: #8cc63f;
       animation: underline 1s 2s forwards;
+    }
+
+    .outstanding {
+      color: white;
+    }
+
+    .compaigns {
+      color: #f2782a;
+    }
+    @keyframes underline {
+      to {
+        width: 100%;
+      }
+    }
+  }
+
+  .page-2 {
+    position: relative;
+    font-size: 6rem;
+    top: -25px;
+    margin-left: 85px;
+    color: white;
+    line-height: 115%;
+    overflow: hidden;
+    .something-2 {
+      display: block;
+      // animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+      .success {
+        color: #8cc63f !important;
+        display: inline-block !important;
+        position: relative !important;
+        padding-bottom: 4px !important;
+        margin-bottom: 10px !important;
+      }
+      .success:after {
+        position: absolute !important;
+        content: "" !important;
+        bottom: -18px !important;
+        left: 0px !important;
+        height: 2px !important;
+        width: 0% !important;
+        background-color: #f2782a !important;
+        animation: underline 1s 2s !important;
+      }
+
+      @keyframes underline {
+        to {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  @keyframes reveal {
+    0% {
+      transform: translate(0, 100%);
+    }
+    100% {
+      transform: translate(0, 0);
     }
   }
 
   .page-3 {
     font-weight: 700;
     margin-left: 15%;
-    margin-top: -90px;
+    margin-top: -30px;
     color: white;
     span {
       color: #f2782a;
@@ -54,9 +122,10 @@
 
   .page-4 {
     color: white;
-    font-size: 6rem;
+    font-size: 7rem;
     text-align: center;
     font-weight: 700;
+    margin-top: 250px;
     span {
       color: #f2782a;
       display: inline-block;
@@ -150,10 +219,27 @@
       animation: underline 1s 2s forwards;
     }
   }
+}
 
-  @keyframes underline {
-    to {
-      width: 100%;
-    }
+.page-2 {
+  animation: check 1.2s ease-out forwards 1s;
+}
+.headings {
+  h1 {
+    animation: check 1s ease-out forwards 0.12s;
+  }
+}
+@keyframes check {
+  0% {
+    transform: translate(200%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes underline {
+  to {
+    width: 100%;
   }
 }

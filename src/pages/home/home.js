@@ -33,6 +33,7 @@ const Home = () => {
       {!isLoading && <SlideAnimations />}
       <div className="home">
         <Banner makeScroll={makeScroll} conf={{ isButton: true, page: 1 }} />
+
         <InfoText />
         <Container fluid className="our-work ">
           <h1>Our Work</h1>

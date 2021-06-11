@@ -11,31 +11,31 @@ html {
 .left-layer {
   z-index: 1;
   position: absolute !important;
-  width: 40%;
+  width: 32%;
   height: 100%;
-  left: -40%;
-
+  left: -32%;
   background: #cd6a26;
-
-  animation: slideIn 0.7s ease-in-out forwards 0.1s;
+  animation: slideIn 0.7s ease-out forwards 0.06s;
 }
 .left-layer--2 {
+  width: 30% !important;
+  left: -30%;
   background: gray;
-  animation: slideIn 1s ease-in-out forwards 0.12s;
+  animation: slideIn 1s ease-out forwards 0.09s;
 }
+
 .left-layer--3 {
+  width: 25% !important;
+  left: -25%;
   background: #82b23c;
-  animation: slideIn 1.2s ease-in-out forwards 0.18s;
+  animation: slideIn 1.2s ease-out forwards 0.13s;
 }
 
 @keyframes slideIn {
   0% {
-    transform: translateX(1900px);
-  }
-  50% {
-    transition-duration: 10s;
+    transform: translate3d(2400px, 0px, 0px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translate3d(0px, 0px, 0px);
   }
 }
