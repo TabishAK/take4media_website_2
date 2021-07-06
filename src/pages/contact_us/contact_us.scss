@@ -1,9 +1,16 @@
+.contact-us {
+  .down-button {
+    margin-top: 12% !important;
+  }
+}
+
 .contact-form {
   background-image: url("../../images/backgrounds/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 70%;
   height: 70rem;
+
   .input-forms {
     .input-1 {
       width: fit-content;

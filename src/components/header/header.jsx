@@ -9,7 +9,14 @@ const Header = () => {
     <div className="header">
       <Fade top delay={700}>
         <div className="logo">
-          <img alt="company-logo" src={t4m_logo} width={215} />
+          <img
+            alt="company-logo"
+            src={t4m_logo}
+            width={215}
+            style={{
+              marginTop: "6px",
+            }}
+          />
         </div>
       </Fade>
       <div className="nav-menus">
@@ -38,7 +45,9 @@ const Header = () => {
       </div>{" "}
       <Pulse infinite>
         <div className="contact-btn">
-          <button className="btn btn-sm btn-contact-us">Contact us</button>
+          <Link to="/contact">
+            <button className="btn btn-sm btn-contact-us">Contact us</button>
+          </Link>
         </div>
       </Pulse>
       <div className="contact-btn-sm">
