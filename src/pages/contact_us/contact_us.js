@@ -33,7 +33,7 @@ const ContactUs = () => {
       e.preventDefault();
       axios({
         method: "POST",
-        url: "/send",
+        url: "http://localhost:5000/send",
         data: data,
       }).then((response) => {
         setLoader(false);
