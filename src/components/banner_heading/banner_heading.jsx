@@ -12,7 +12,7 @@ const BannerHeading = (props) => {
           <span className="something-1">
             We Build <span className="creative">Creative</span>{" "}
             <span className="outstanding">Outstanding</span>{" "}
-            <span className="compaigns">Compaigns</span>
+            <span className="compaigns">Campaigns</span>
           </span>{" "}
         </h1>
       ) : // </Fade>
