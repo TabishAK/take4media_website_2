@@ -28,25 +28,25 @@ const ContactUs = () => {
   };
 
   const submitForm = async (e) => {
-    if (validator.isEmail(data.email)) {
-      setLoader(true);
-      e.preventDefault();
-      axios({
-        method: "POST",
-        url: "http://localhost:5000/send",
-        data: data,
-      }).then((response) => {
-        setLoader(false);
-        if (response.data.status === "success") {
-          alert("Message Sent.");
-          resetForm();
-        } else if (response.data.status === "fail") {
-          alert("Message failed to send.");
-        }
-      });
-    } else {
-      setError("Enter valid email address!");
-    }
+    // if (validator.isEmail(data.email)) {
+    //   setLoader(true);
+    //   e.preventDefault();
+    //   axios({
+    //     method: "POST",
+    //     url: "http://localhost:5000/send",
+    //     data: data,
+    //   }).then((response) => {
+    //     setLoader(false);
+    //     if (response.data.status === "success") {
+    //       alert("Message Sent.");
+    //       resetForm();
+    //     } else if (response.data.status === "fail") {
+    //       alert("Message failed to send.");
+    //     }
+    //   });
+    // } else {
+    //   setError("Enter valid email address!");
+    // }
   };
 
   const resetForm = () => {
